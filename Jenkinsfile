@@ -32,7 +32,7 @@ pipeline {
       steps{
         script {
           docker.withRegistry( '', registryCredential ) {
-            Image.push()
+            dockerImage.push()
           }
     }
   }
