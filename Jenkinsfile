@@ -4,7 +4,7 @@ pipeline {
      maven 'M2_HOME'
   }
   environment {
-    registry = "vision3908/devoppipeline"
+    registry = "vision3908/devopipeline"
     registryCredential = '827c7fa5-e067-4a9e-92f4-c5590cbf7eee'
   }
   stages {
